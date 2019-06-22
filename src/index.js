@@ -1,14 +1,11 @@
 import React from 'react'
 import {render} from 'react-dom'
-import {Router} from 'react-router-dom'
-import {createHashHistory} from 'history'
+import AppContainer from './container'
 import './style.scss'
 
 export function renderApp() {
     render(
-            <Router history={createHashHistory()}>
-                <div>hello profi</div>
-            </Router>,
+        <AppContainer/>,
         document.getElementById('root'))
 }
 

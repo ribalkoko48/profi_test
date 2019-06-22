@@ -1,0 +1,104 @@
+.card {
+  font-size: 16px;
+  line-height: 22px;
+
+  .T-Centralen {
+    background: url("/images/T-Centralen.png") center no-repeat;
+    background-size: contain;
+  }
+
+  .Bagarmossen {
+    background: url("/images/Bagarmossen.png") center no-repeat;
+    background-size: contain;
+  }
+
+  .Stadion {
+    background: url("/images/Stadion.png") center no-repeat;
+    background-size: contain;
+
+  }
+
+  .SolnaCentrum {
+    background: url("/images/SolnaCentrum.png") center no-repeat;
+    background-size: contain;
+  }
+
+  .Thorildsplan {
+    background: url("/images/Thorildsplan.png") center no-repeat;
+    background-size: contain;
+  }
+
+  .Kungsträdgården {
+    background: url("/images/Kungstradgarden.png") center no-repeat;
+    background-size: contain;
+  }
+
+  &_row {
+    display: flex;
+    margin-bottom: 40px;
+  }
+
+  &_row &__infoBlock {
+    margin: 0 0 20px 20px;
+  }
+
+  &__image {
+    width: 240px;
+    height: 160px;
+  }
+
+  &__image_row {
+    height: 100px;
+    min-width: 150px;
+  }
+
+  &__infoBlock {
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+
+  &__infoBlockLineColor {
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-size: 18px;
+    line-height: 21px;
+    opacity: 0.4;
+  }
+
+  &__infoBlockLineColor_blue {
+    color: #0060FF;
+  }
+
+  &__infoBlockLineColor_red {
+    color: #FF3D00;
+  }
+
+  &__infoBlockLineColor_green {
+    color: #027500;
+  }
+
+  &__infoBlockTitle {
+    font-size: 24px;
+    line-height: 31px;
+  }
+
+  &__infoBlockTitle > span {
+    margin-right: 20px;
+  }
+
+  &__infoBlockTitle span:last-child {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  &:not(&_row) &__infoBlockDescription {
+    height: 110px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+  }
+
+}

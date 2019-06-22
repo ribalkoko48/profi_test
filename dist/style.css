@@ -1,3 +1,150 @@
+@charset "UTF-8";
+.card {
+  font-size: 16px;
+  line-height: 22px; }
+  .card .T-Centralen {
+    background: url("/images/T-Centralen.png") center no-repeat;
+    background-size: contain; }
+  .card .Bagarmossen {
+    background: url("/images/Bagarmossen.png") center no-repeat;
+    background-size: contain; }
+  .card .Stadion {
+    background: url("/images/Stadion.png") center no-repeat;
+    background-size: contain; }
+  .card .SolnaCentrum {
+    background: url("/images/SolnaCentrum.png") center no-repeat;
+    background-size: contain; }
+  .card .Thorildsplan {
+    background: url("/images/Thorildsplan.png") center no-repeat;
+    background-size: contain; }
+  .card .Kungsträdgården {
+    background: url("/images/Kungstradgarden.png") center no-repeat;
+    background-size: contain; }
+  .card_row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 40px; }
+  .card_row .card__infoBlock {
+    margin: 0 0 20px 20px; }
+  .card__image {
+    width: 240px;
+    height: 160px; }
+  .card__image_row {
+    height: 100px;
+    min-width: 150px; }
+  .card__infoBlock {
+    width: 100%;
+    margin: 0 0 20px 0; }
+  .card__infoBlockLineColor {
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-size: 18px;
+    line-height: 21px;
+    opacity: 0.4; }
+  .card__infoBlockLineColor_blue {
+    color: #0060FF; }
+  .card__infoBlockLineColor_red {
+    color: #FF3D00; }
+  .card__infoBlockLineColor_green {
+    color: #027500; }
+  .card__infoBlockTitle {
+    font-size: 24px;
+    line-height: 31px; }
+  .card__infoBlockTitle > span {
+    margin-right: 20px; }
+  .card__infoBlockTitle span:last-child {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 21px; }
+  .card:not(.card_row) .card__infoBlockDescription {
+    height: 110px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical; }
+
+.tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 65px;
+  font-family: Roboto, Arial, SansSerif;
+  font-size: 20px; }
+  @media (max-width: 370px) {
+    .tabs {
+      margin-left: 30px; } }
+  .tabs__tab {
+    position: relative;
+    cursor: pointer;
+    margin-right: 21px;
+    padding: 7px 13px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
+    @media (max-width: 420px) {
+      .tabs__tab {
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background: beige;
+        color: gainsboro;
+        cursor: auto;
+        border-radius: 4px;
+        pointer-events: none; } }
+  .tabs__tab:hover {
+    background: #F1F1EF;
+    border-radius: 4px; }
+  .tabs__tab_active:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #33363B;
+    bottom: -4px;
+    left: 0;
+    position: absolute;
+    right: 0; }
+
+.underground {
+  padding: 51px 30px 0;
+  max-width: 960px;
+  min-width: 280px;
+  margin: 0 auto; }
+  @media (max-width: 370px) {
+    .underground {
+      padding: 51px 0 0; } }
+  .underground__cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
+  .underground__cards_row {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start; }
+  .underground__cards .card {
+    width: 240px;
+    margin: 10px; }
+  .underground__cards_row .card {
+    width: 100%; }
+
 body {
-  background: rosybrown; }
+  margin: 0; }
+
+p {
+  display: block;
+  -webkit-margin-before: 0;
+  margin-block-start: 0;
+  -webkit-margin-after: 0;
+  margin-block-end: 0;
+  -webkit-margin-start: 0;
+  margin-inline-start: 0;
+  -webkit-margin-end: 0;
+  margin-inline-end: 0; }
 
