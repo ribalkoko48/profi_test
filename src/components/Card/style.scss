@@ -1,6 +1,14 @@
 .card {
+  transition: opacity 300ms ease-in, transform 300ms ease-in;
   font-size: 16px;
   line-height: 22px;
+  opacity: 0;
+  transform: rotate(2deg) translate(10px, 10px);
+
+  &_visible {
+    opacity: 1;
+    transform: rotate(0deg) translate(0, 0);
+  }
 
   .T-Centralen {
     background: url("/images/T-Centralen.png") center no-repeat;

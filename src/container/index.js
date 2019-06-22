@@ -19,7 +19,7 @@ class AppContainer extends PureComponent {
     }
 
     handleResizeListener = () => {
-        if (window.innerWidth < 420) { // проверка на "column" не нужна, render только один раз сработает
+        if (window.innerWidth <= 420) { // проверка на "column" не нужна, render только один раз сработает
             this.setState({
                 contentFlow: 'column'
             })
