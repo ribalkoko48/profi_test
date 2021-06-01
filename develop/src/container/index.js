@@ -2,8 +2,8 @@ import React, {PureComponent} from 'react'
 import PropTypes from 'prop-types'
 import classnames from 'classnames'
 import stationsData from '../data'
-import Card from "../components/Card/index";
-import Tabs from "../components/Tabs/index";
+import Card from "../components/Card";
+import Tabs from "../components/Tabs";
 import './style.scss'
 
 class AppContainer extends PureComponent {
