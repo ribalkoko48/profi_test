@@ -14,22 +14,22 @@
     -webkit-transform: rotate(0deg) translate(0, 0);
     transform: rotate(0deg) translate(0, 0); }
   .card .T-Centralen {
-    background: url("/images/T-Centralen.png") center no-repeat;
+    background: url("https://ribalkoko48.github.io/profi_test/images/T-Centralen.png") center no-repeat;
     background-size: contain; }
   .card .Bagarmossen {
-    background: url("/images/Bagarmossen.png") center no-repeat;
+    background: url("https://ribalkoko48.github.io/profi_test/images/Bagarmossen.png") center no-repeat;
     background-size: contain; }
   .card .Stadion {
-    background: url("/images/Stadion.png") center no-repeat;
+    background: url("https://ribalkoko48.github.io/profi_test/images/Stadion.png") center no-repeat;
     background-size: contain; }
   .card .SolnaCentrum {
-    background: url("/images/SolnaCentrum.png") center no-repeat;
+    background: url("https://ribalkoko48.github.io/profi_test/images/SolnaCentrum.png") center no-repeat;
     background-size: contain; }
   .card .Thorildsplan {
-    background: url("/images/Thorildsplan.png") center no-repeat;
+    background: url("https://ribalkoko48.github.io/profi_test/images/Thorildsplan.png") center no-repeat;
     background-size: contain; }
   .card .Kungsträdgården {
-    background: url("/images/Kungstradgarden.png") center no-repeat;
+    background: url("https://ribalkoko48.github.io/profi_test/images/Kungstradgarden.png") center no-repeat;
     background-size: contain; }
   .card_row {
     display: -webkit-box;
